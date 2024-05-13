@@ -16,11 +16,21 @@ MonoBehaviour:
   position: {x: -1112, y: 264}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
+    - _fieldName: sImageTexture
+      _node: {fileID: -8574497493446758393}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: Texture2D
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
     - _fieldName: sUvInput
       _node: {fileID: -8574497493446758393}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -30,16 +40,6 @@ MonoBehaviour:
       - fieldName: name_vector2
         node: {fileID: -1761321371245228599}
         reroutePoints: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: sImageTexture
-      _node: {fileID: -8574497493446758393}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: Texture2D
-      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -95,20 +95,10 @@ MonoBehaviour:
   position: {x: -424, y: 264}
   ports:
     keys:
-    - sFac
     - sColor
+    - sFac
     - Result
     values:
-    - _fieldName: sFac
-      _node: {fileID: -4470865233284050386}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: sColor
       _node: {fileID: -4470865233284050386}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -118,6 +108,16 @@ MonoBehaviour:
       - fieldName: Result
         node: {fileID: 2187736904610214075}
         reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFac
+      _node: {fileID: -4470865233284050386}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: float
+      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -163,27 +163,30 @@ MonoBehaviour:
   position: {x: -424, y: 24}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
-    - _fieldName: sUvInput
-      _node: {fileID: -4321018796379814441}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector2
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: sImageTexture
       _node: {fileID: -4321018796379814441}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: Texture2D
       connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sUvInput
+      _node: {fileID: -4321018796379814441}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: vector2
+      connections:
+      - fieldName: name_vector2
+        node: {fileID: -1761321371245228599}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -236,7 +239,7 @@ MonoBehaviour:
   m_Name: Material Input
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -1416, y: 232}
+  position: {x: -1320, y: -104}
   ports:
     keys:
     - inputvariable_1
@@ -260,6 +263,15 @@ MonoBehaviour:
       connections:
       - fieldName: sUvInput
         node: {fileID: -8574497493446758393}
+        reroutePoints: []
+      - fieldName: sUvInput
+        node: {fileID: -4321018796379814441}
+        reroutePoints: []
+      - fieldName: sUvInput
+        node: {fileID: 3702332989139210435}
+        reroutePoints: []
+      - fieldName: sUvInput
+        node: {fileID: 3602765840197290776}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -298,7 +310,7 @@ MonoBehaviour:
   newFilePath: 
   graphMenuPath: Material Nodes Graph
   isEnable: 1
-  mousePos: {x: 524, y: 259}
+  mousePos: {x: 594, y: 168}
   TextureCurvePaths: []
   OldOutputNodeSlotNames: []
   OldInputNodeSlotNames: []
@@ -440,20 +452,10 @@ MonoBehaviour:
   position: {x: -824, y: 280}
   ports:
     keys:
-    - sFac
     - sColor
+    - sFac
     - Result
     values:
-    - _fieldName: sFac
-      _node: {fileID: 2187736904610214075}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: float
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: sColor
       _node: {fileID: 2187736904610214075}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
@@ -463,6 +465,16 @@ MonoBehaviour:
       - fieldName: Result
         node: {fileID: -8574497493446758393}
         reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sFac
+      _node: {fileID: 2187736904610214075}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: float
+      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -508,27 +520,30 @@ MonoBehaviour:
   position: {x: -424, y: -408}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
-    - _fieldName: sUvInput
-      _node: {fileID: 3602765840197290776}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector2
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: sImageTexture
       _node: {fileID: 3602765840197290776}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: Texture2D
       connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sUvInput
+      _node: {fileID: 3602765840197290776}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: vector2
+      connections:
+      - fieldName: name_vector2
+        node: {fileID: -1761321371245228599}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -584,27 +599,30 @@ MonoBehaviour:
   position: {x: -424, y: -200}
   ports:
     keys:
-    - sUvInput
     - sImageTexture
+    - sUvInput
     - sLOD_Num
     - Result
     values:
-    - _fieldName: sUvInput
-      _node: {fileID: 3702332989139210435}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      _nodePortType: vector2
-      connections: []
-      _direction: 0
-      _connectionType: 1
-      _typeConstraint: 0
-      _dynamic: 0
     - _fieldName: sImageTexture
       _node: {fileID: 3702332989139210435}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       _nodePortType: Texture2D
       connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: sUvInput
+      _node: {fileID: 3702332989139210435}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      _nodePortType: vector2
+      connections:
+      - fieldName: name_vector2
+        node: {fileID: -1761321371245228599}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
