@@ -1,0 +1,139 @@
+{
+    "nodeDatas": [
+        {
+            "location": [
+                300.0,
+                300.0
+            ],
+            "name": "NULL.ShaderNodeOutputMaterial.Material Output"
+        },
+        {
+            "location": [
+                10.0,
+                300.0
+            ],
+            "name": "NULL.ShaderNodeBsdfPrincipled.Principled BSDF"
+        },
+        {
+            "connections0Name": [
+                "Normal"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "location": [
+                -174.70838928222656,
+                -297.65313720703125
+            ],
+            "name": "ShaderNodeNormalMap.Normal Map",
+            "properties": [
+                "1.0",
+                "0.5",
+                "0.5",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Metallic"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -472.85577392578125,
+                287.1221923828125
+            ],
+            "name": "ShaderNodeTexImage.Image Texture.001"
+        },
+        {
+            "connections0Name": [
+                "Roughness"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -474.6497802734375,
+                0.121246337890625
+            ],
+            "name": "ShaderNodeTexImage.Image Texture.002"
+        },
+        {
+            "connections0Name": [
+                "Base Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -469.26788330078125,
+                586.6795043945312
+            ],
+            "name": "ShaderNodeTexImage.Image Texture"
+        },
+        {
+            "location": [
+                -893.3602294921875,
+                -426.0947265625
+            ],
+            "name": "NULL.ShaderNodeSeparateColor.Separate RGB"
+        },
+        {
+            "location": [
+                -483.95709228515625,
+                -414.6854553222656
+            ],
+            "name": "NULL.ShaderNodeCombineColor.Combine RGB"
+        },
+        {
+            "connections0Name": [
+                "Green"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeCombineColor.Combine RGB"
+            ],
+            "location": [
+                -690.941650390625,
+                -413.1273498535156
+            ],
+            "name": "ShaderNodeInvert.Invert",
+            "properties": [
+                "1.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeSeparateColor.Separate RGB"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -1237.628662109375,
+                -297.7437744140625
+            ],
+            "name": "ShaderNodeTexImage.Image Texture.004"
+        },
+        {
+            "name": "EXTRA",
+            "properties": [
+                "True",
+                "True"
+            ]
+        }
+    ]
+}
